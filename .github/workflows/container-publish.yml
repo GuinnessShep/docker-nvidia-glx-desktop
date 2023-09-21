@@ -10,7 +10,7 @@ on:
     branches: [ main ]
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: selkies-project/nvidia-glx-desktop
+  IMAGE_NAME: guinnessshep/nvidia-glx-desktop
 jobs:
   build-2004:
     runs-on: ubuntu-latest
