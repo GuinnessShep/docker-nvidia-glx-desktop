@@ -16,7 +16,7 @@ spec:
       hostNetwork: true
       containers:
       - name: xgl
-        image: ghcr.io/selkies-project/nvidia-glx-desktop:latest
+        image: ghcr.io/guinnessshep/nvidia-glx-desktop:latest
         securityContext:
           privileged: true
         env:
