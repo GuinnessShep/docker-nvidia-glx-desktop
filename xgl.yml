@@ -60,7 +60,7 @@ spec:
         ###
         # Change `WEBRTC_ENCODER` to `x264enc`, `vp8enc`, or `vp9enc` if your GPU doesn't support `H.264 (AVCHD)` under the `NVENC - Encoding` section in https://developer.nvidia.com/video-encode-and-decode-gpu-support-matrix-new
         - name: WEBRTC_ENCODER
-          value: "nvh264enc"
+          value: "vp8enc"
         - name: WEBRTC_ENABLE_RESIZE
           value: "false"
         - name: ENABLE_AUDIO
